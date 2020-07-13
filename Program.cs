@@ -9,7 +9,7 @@ namespace c_
         {
             Console.WriteLine("inside method");
             int str = int.Parse(Console.ReadLine());
-            return 0;
+            return 2;
         }
         static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace c_
             {
                 if (i == 2)
                 {
-                    continue;
+                    break;
                 }
 
                 Console.WriteLine(i);
