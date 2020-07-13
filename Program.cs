@@ -9,7 +9,7 @@ namespace c_
         {
             Console.WriteLine("inside method");
             int str = int.Parse(Console.ReadLine());
-            return 0;
+            return 1;
         }
         static void Main(string[] args)
         {
