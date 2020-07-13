@@ -20,7 +20,7 @@ namespace c_
             {
                 if (i == 2)
                 {
-                    continue;
+                    break;
                 }
 
                 Console.WriteLine(i);
